@@ -1,4 +1,4 @@
-# 🏨 Ireland Hotels Booking Intelligence Dashboard
+# 🏨 Ireland Hotels Analytics Dashboard 
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -122,7 +122,7 @@ The dataset comprises **447 hotels** across Ireland with detailed metrics:
 ### Local Development
 ```
 # Clone the repository
-git clone https://github.com/dineshbarri/ireland-hotels-dashboard.git
+git clone https://github.com/dineshbarri/Ireland-Hotel-Analytics-Website.git
 
 # Navigate to project directory
 cd ireland-hotels-dashboard
