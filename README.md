@@ -14,6 +14,12 @@
 
 The Ireland Hotel Analytics Dashboard is a comprehensive data visualization tool that tracks and analyzes hotel pricing across Ireland using real-time data scraped from Booking.com. The dashboard specifically focuses on weekend one-night stays, providing users with clear insights into price distribution patterns across different Irish counties.
 
+This dashboard helps:
+
+* Travelers compare hotel prices across regions.
+* Hoteliers benchmark pricing.
+* Researchers analyze accommodation trends.
+
 ---
 
 ## 📸 Website Preview
@@ -76,6 +82,27 @@ Ireland-Hotels-UI-Project/
 
 The dataset comprises **447 hotels** across Ireland with detailed metrics:
 
+### 📌 Data Source
+
+The dataset is obtained by scraping **Booking.com** search results for *one-night weekend stays* across Ireland.
+
+### 📌 Data Disclaimer
+
+* Data scraping respects publicly visible data only.
+* Booking.com® terms of service must be reviewed before any reuse.
+* This project is for **educational and analytical purposes only**.
+
+### 📌 Data Provenance
+
+Each row includes:
+
+* Hotel name
+* County
+* Price per night
+* Rating
+* Review count ...
+
+
 ### 🏙️ Geographic Distribution
 - **15+ Cities** including Dublin, Galway, Cork, Killarney, and more
 - **Nationwide Coverage** from urban centers to coastal destinations
@@ -97,28 +124,13 @@ The dataset comprises **447 hotels** across Ireland with detailed metrics:
 - **Prepayment**: Mixed policies across properties
 - **Breakfast**: 35% include breakfast
 
-## 🛠️ Technology Stack
+---
 
-### Frontend Technologies
-- **HTML5** - Semantic structure and accessibility
-- **CSS3** - Advanced styling with CSS Grid and Flexbox
-- **JavaScript ES6+** - Modern JavaScript features
+### 🧰 Tech Stack
 
-### Visualization Libraries
-- **ECharts.js** - Interactive data visualizations
-- **Leaflet.js** - Interactive mapping
-- **p5.js** - Particle background effects
-
-### Animation & UI Libraries
-- **Anime.js** - Smooth animations and transitions
-- **Typed.js** - Dynamic text typing effects
-- **Splide.js** - Responsive carousel functionality
-- **Splitting.js** - Text animation effects
-
-### Design System
-- **Tailwind CSS** - Utility-first CSS framework
-- **Google Fonts** - Playfair Display, Inter, JetBrains Mono
-- **Custom CSS** - Brand-specific styling and animations
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,github,netlify" height="50" />
+</p>
 
 
 ---
@@ -171,30 +183,11 @@ In your browser.
 - **Room Type** multi-select
 - **Policy Filters** (cancellation, prepayment, breakfast)
 
-## 🎯 Business Applications
+  
+---
 
-### For Hoteliers
-- **Competitive Positioning** - Understand market standing
-- **Pricing Strategy** - Optimize room rates based on quality
-- **Market Gaps** - Identify underserved customer segments
 
-### For Travelers
-- **Value Discovery** - Find best quality-to-price ratios
-- **Location Planning** - Strategic hotel selection
-- **Policy Comparison** - Flexible booking options
 
-### For Analysts
-- **Market Trends** - Pricing and quality patterns
-- **Geographic Analysis** - Regional performance variations
-- **Benchmarking** - Industry standard comparisons
-
-## 🔮 Future Enhancements
-
-- **Real-time Data Integration** - Live booking data feeds
-- **Advanced Forecasting** - Demand prediction models
-- **Sentiment Analysis** - Review text mining
-- **Mobile App** - Native iOS/Android applications
-- **API Development** - RESTful data endpoints
 
 
 ---
@@ -229,6 +222,29 @@ We welcome improvements! Please read:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+
+## 💼 Business Use Cases
+
+This dashboard can be used by:
+
+### 🏨 Hoteliers
+
+* Benchmark pricing vs competitors.
+* Identify peak demand regions.
+
+### 📈 Investors
+
+* Compare price trends across counties.
+* Identify profitable regions for new hotels.
+
+### 🧳 Travelers
+
+* Discover affordable weekend destinations.
+* Compare county-level price ranges instantly.
+
 
 ---
 
